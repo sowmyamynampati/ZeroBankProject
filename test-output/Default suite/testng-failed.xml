@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.FeedbackTest">
+      <class name="testCases.HomeNavigationBarTest">
         <methods>
           <include name="setup"/>
-          <include name="verify_account_registration" invocation-numbers="11 12 13 14 15 16 17 18 19 20 21 22 23 24"/>
+          <include name="tearDown"/>
+          <include name="navivation_bar_verification"/>
         </methods>
-      </class> <!-- testCases.FeedbackTest -->
+      </class> <!-- testCases.HomeNavigationBarTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
